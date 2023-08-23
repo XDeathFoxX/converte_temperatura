@@ -18,7 +18,8 @@ public class converte_temperatura {
         double celsius0 = temp_input - 32;
         double celsius1 = celsius0 / 1.8;
 
-        System.out.println("A temperatura de Fahrenheit digitada para Celsius é de " + celsius1 + "\u00B0");
+        System.out.printf("A temperatura de %.2f Fahrenheit convertida para Celsius é de %.2f \u00B0",temp_input,celsius1);
+        System.out.println();
 
         input.close();
 
